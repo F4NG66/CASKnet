@@ -10,11 +10,9 @@ You will also need:
 
 ```
 
----
 
 ## 2. Predicting secretion from a FASTA file
 
-### Basic usage
 
 ```bash
 python predict.py -i input.fasta -o predictions.csv
