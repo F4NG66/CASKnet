@@ -1,0 +1,13 @@
+Fig3 customer-request final version
+Rules applied:
+1. Blue method removed from all panels.
+2. Panels a and b split green and grey into separate bars.
+3. No underlying data changed.
+
+Loaded entries: 374
+Method retained: Point-to-point (Method 2)
+Sequence detected: 369/374
+Sequence not detected: 5/374
+Position matched: 1891/3641
+Position unmatched: 1750/3641
+Median first matched detection position: 5

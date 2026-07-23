@@ -1,0 +1,40 @@
+{
+  "INFO": {
+    "failedjobs": 0,
+    "size": 1
+  },
+  "CSV_FILE": "/services/SignalP-6.0/tmp/69E390D10016FFB40E5F1164/prediction_results.txt",
+  "MATURE_FILE": "/services/SignalP-6.0/tmp/69E390D10016FFB40E5F1164/processed_entries.fasta",
+  "GFF_FILE": "/services/SignalP-6.0/tmp/69E390D10016FFB40E5F1164/output.gff3",
+  "ZIP_FILE": "/services/SignalP-6.0/tmp/69E390D10016FFB40E5F1164/output_all_results.zip",
+  "SEQUENCES": {
+    "Sequence": {
+      "Name": "Sequence",
+      "Plot_eps": "/services/SignalP-6.0/tmp/69E390D10016FFB40E5F1164/output_Sequence_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/69E390D10016FFB40E5F1164/output_Sequence_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/69E390D10016FFB40E5F1164/output_Sequence_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0009,
+        0.9971,
+        0.001,
+        0.0003,
+        0.0003,
+        0.0003
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)",
+        "Lipoprotein signal peptide (Sec/SPII)",
+        "TAT signal peptide (Tat/SPI)",
+        "TAT Lipoprotein signal peptide (Tat/SPII)",
+        "Pilin-like signal peptide (Sec/SPIII)"
+      ],
+      "CS_pos": "Cleavage site between pos. 23 and 24. Probability 0.966914"
+    }
+  },
+  "FORMAT": "all",
+  "ORG": "other",
+  "MODE": "fast",
+  "REGION_GFF_FILE": "/services/SignalP-6.0/tmp/69E390D10016FFB40E5F1164/region_output.gff3"
+}

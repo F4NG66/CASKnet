@@ -1,0 +1,3 @@
+# SignalP-6.0	Organism: Other	Timestamp: 20260418161029
+# ID	Prediction	OTHER	SP(Sec/SPI)	LIPO(Sec/SPII)	TAT(Tat/SPI)	TATLIPO(Tat/SPII)	PILIN(Sec/SPIII)	CS Position
+Sequence	SP	0.000886	0.997148	0.001002	0.000344	0.000319	0.000283	CS pos: 23-24. Pr: 0.9669

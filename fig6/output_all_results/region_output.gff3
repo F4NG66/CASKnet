@@ -1,0 +1,4 @@
+## gff-version 3
+Sequence	SignalP-6.0	n-region	1	4	.	.	.	.
+Sequence	SignalP-6.0	h-region	5	19	.	.	.	.
+Sequence	SignalP-6.0	c-region	20	23	.	.	.	.

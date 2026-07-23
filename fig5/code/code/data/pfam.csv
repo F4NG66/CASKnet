@@ -1,0 +1,11 @@
+Pfam_ID,Proportion,Pfam,Clan_all
+pfam16344,0.065304088,DUF4974,NA
+pfam19127,0.063808574,Choline_bind_3,Choline binding repeat superfamily
+pfam00395,0.062811565,SLH,NA
+pfam03793,0.035393819,PASTA,NA
+pfam01476,0.033649053,LysM,LysM-like domain
+pfam01473,0.024925224,Choline_bind_1,Choline binding repeat superfamily
+pfam07338,0.02442672,YdgH_BhsA-like,YdgH_BhsA-like
+pfam08239,0.023928215,SH3_3,Src homology-3 domain
+pfam04977,0.022432702,DivIC,FtsL
+pfam00404,0.01894317,Dockerin_1,EF_hand
