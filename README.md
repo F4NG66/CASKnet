@@ -8,10 +8,9 @@ You will also need:
 - **A trained CASKnet checkpoint** (default expected at `./model/best_model.pth`)
 - **A local copy of the ProtT5-XL-UniRef50 encoder** (default expected at `./prot5uni50full`), downloadable from the [Rostlab ProtTrans repository](https://github.com/agemagician/ProtTrans)
 
-```
 
 
-## 2. Predicting secretion from a FASTA file
+## Predicting secretion from a FASTA file
 
 ```bash
 python predict.py -i input.fasta -o predictions.csv
