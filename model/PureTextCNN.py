@@ -7,16 +7,15 @@ import numpy as np
 
 
 class Config(object):
-    """配置参数"""
 
     def __init__(self, dataset, pretrained_name_or_path=None):
-        self.dropout = 0.5  # 随机失活
-        self.num_classes = 2  # 类别数
-        self.pad_size = 32  # 每句话处理成的长度(短填长切)
-        self.learning_rate = 1e-5  # 学习率
+        self.dropout = 0.5 
+        self.num_classes = 2  
+        self.pad_size = 32 
+        self.learning_rate = 1e-5 
         self.embed = 1024
-        self.filter_sizes = (2, 3, 4)  # 卷积核尺寸
-        self.num_filters = 256  # 卷积核数量(channels数)
+        self.filter_sizes = (2, 3, 4) 
+        self.num_filters = 256  
 
 
 '''Convolutional Neural Networks for Sentence Classification'''
