@@ -87,7 +87,7 @@ def calculate_interval_metrics(val_loader, model, config, output_file="metrics.t
                 true_label = labels[i].item()
                 pred_label = predictions[i].item()
                 length = int(seq_lengths[i].item()) 
-                start = max(10, (length // 5) * 5)  # 确保从10开始，5的倍数
+                start = max(10, (length // 5) * 5)  
                 end = min(start + 4, 110)
                 interval = (start, end)
                 if true_label == 1:
@@ -108,7 +108,7 @@ def calculate_interval_metrics(val_loader, model, config, output_file="metrics.t
         sensitivity = tp / (tp + fn) if (tp + fn) > 0 else 0.0
         specificity = tn / (tn + fp) if (tn + fp) > 0 else 0.0
         results.append((interval, sensitivity, specificity))
-    # 写入文件
+
     with open(output_file, 'w') as f:
         f.write("Interval\tSensitivity\tSpecificity\n")
         for (start, end), sen, spec in results:
@@ -130,7 +130,6 @@ fasta_path ="secretepro.fasta"
 t5_file = "./Embedding/secreteprofull.h5"
 xlsxProteinDataset = xlsxProteinDataset(csv_file, fasta_path, t5_file, max_length=110)
 
-#随机划分
 train_size = int(0.8 * len(xlsxProteinDataset))
 test_size = len(xlsxProteinDataset) - train_size
 train_dataset, test_dataset = random_split(xlsxProteinDataset, [train_size, test_size])
