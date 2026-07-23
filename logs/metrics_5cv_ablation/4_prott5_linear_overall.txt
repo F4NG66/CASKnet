@@ -1,0 +1,8 @@
+Metric	Value
+Accuracy	0.9121
+Sensitivity	0.9313
+Specificity	0.8901
+ROC-AUC	0.9745
+PR-AUC	0.9775
+F1-score	0.9190
+MCC	0.8234

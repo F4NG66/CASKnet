@@ -1,0 +1,605 @@
+       Entry  ...          source
+4469  O78452  ...  labeled_sample
+4556  O21401  ...  labeled_sample
+3685  P59925  ...  labeled_sample
+4581  Q35416  ...  labeled_sample
+4030  P25434  ...  labeled_sample
+...      ...  ...             ...
+4426  Q8C5Y2  ...  labeled_sample
+6265  P13618  ...  labeled_sample
+5734  Q2W8Q9  ...  labeled_sample
+5191  Q8R1I1  ...  labeled_sample
+5390  O78517  ...  labeled_sample
+
+[7283 rows x 4 columns]
+       Entry  ...          source
+8887  Q9FLI7  ...  labeled_sample
+3105  P86695  ...  labeled_sample
+7182  Q24703  ...  labeled_sample
+8888  Q9NZ45  ...  labeled_sample
+6918  Q6NE51  ...  labeled_sample
+...      ...  ...             ...
+2047  C0HKY8  ...  labeled_sample
+1685  P86135  ...  labeled_sample
+466   Q9MS60  ...      neg_sample
+860   C0HJX6  ...      neg_sample
+7270  Q8J1Z1  ...  labeled_sample
+
+[1821 rows x 4 columns]
+Epoch 1/15
+Train Loss: 0.4645
+Val Loss: 0.3769
+
+val Accuracy: 0.842394288852279 
+
+Epoch 2/15
+Train Loss: 0.3852
+Val Loss: 0.3493
+
+val Accuracy: 0.8462383305875892 
+
+Epoch 3/15
+Train Loss: 0.3517
+Val Loss: 0.3232
+
+val Accuracy: 0.8533772652388797 
+
+Epoch 4/15
+Train Loss: 0.3306
+Val Loss: 0.3190
+
+val Accuracy: 0.8599670510708401 
+
+Epoch 5/15
+Train Loss: 0.3172
+Val Loss: 0.3034
+
+val Accuracy: 0.8654585392641406 
+
+Epoch 6/15
+Train Loss: 0.3002
+Val Loss: 0.3098
+
+val Accuracy: 0.8627127951674904 
+
+Epoch 7/15
+Train Loss: 0.2859
+Val Loss: 0.2803
+
+val Accuracy: 0.8775398132894014 
+
+Epoch 8/15
+Train Loss: 0.2693
+Val Loss: 0.2667
+
+val Accuracy: 0.8846787479406919 
+
+Epoch 9/15
+Train Loss: 0.2571
+Val Loss: 0.2634
+
+val Accuracy: 0.8802855573860516 
+
+Epoch 10/15
+Train Loss: 0.2463
+Val Loss: 0.2565
+
+val Accuracy: 0.8868753432180121 
+
+Epoch 11/15
+Train Loss: 0.2364
+Val Loss: 0.2595
+
+val Accuracy: 0.8923668314113125 
+
+Epoch 12/15
+Train Loss: 0.2321
+Val Loss: 0.2559
+
+val Accuracy: 0.8890719384953323 
+
+Epoch 13/15
+Train Loss: 0.2254
+Val Loss: 0.2509
+
+val Accuracy: 0.8890719384953323 
+
+Epoch 14/15
+Train Loss: 0.2223
+Val Loss: 0.2486
+
+val Accuracy: 0.8951125755079626 
+
+Epoch 15/15
+Train Loss: 0.2193
+Val Loss: 0.2493
+
+val Accuracy: 0.8940142778693025 
+
+Metrics saved to 5cv/1_transformer.txt
+Overall metrics saved to metrics_5cv/1_transformer_overall.txt
+Length-bin metrics saved to metrics_5cv_bylength/1_transformer_bylength.txt
+       Entry  ...          source
+8887  Q9FLI7  ...  labeled_sample
+4469  O78452  ...  labeled_sample
+4556  O21401  ...  labeled_sample
+3105  P86695  ...  labeled_sample
+3685  P59925  ...  labeled_sample
+...      ...  ...             ...
+466   Q9MS60  ...      neg_sample
+6265  P13618  ...  labeled_sample
+5390  O78517  ...  labeled_sample
+860   C0HJX6  ...      neg_sample
+7270  Q8J1Z1  ...  labeled_sample
+
+[7283 rows x 4 columns]
+       Entry  ...          source
+93    P85905  ...      neg_sample
+8378  Q5HKP9  ...  labeled_sample
+5758  P48772  ...  labeled_sample
+1180  Q88421  ...      neg_sample
+2955  P81994  ...  labeled_sample
+...      ...  ...             ...
+995   P61933  ...      neg_sample
+6873  B8YB60  ...  labeled_sample
+3843  P84509  ...  labeled_sample
+5734  Q2W8Q9  ...  labeled_sample
+5191  Q8R1I1  ...  labeled_sample
+
+[1821 rows x 4 columns]
+Epoch 1/15
+Train Loss: 0.4658
+Val Loss: 0.4166
+
+val Accuracy: 0.8088962108731467 
+
+Epoch 2/15
+Train Loss: 0.3873
+Val Loss: 0.3697
+
+val Accuracy: 0.8434925864909391 
+
+Epoch 3/15
+Train Loss: 0.3473
+Val Loss: 0.3650
+
+val Accuracy: 0.8396485447556288 
+
+Epoch 4/15
+Train Loss: 0.3285
+Val Loss: 0.3625
+
+val Accuracy: 0.8434925864909391 
+
+Epoch 5/15
+Train Loss: 0.3119
+Val Loss: 0.3344
+
+val Accuracy: 0.8555738605161999 
+
+Epoch 6/15
+Train Loss: 0.2958
+Val Loss: 0.3183
+
+val Accuracy: 0.85612300933553 
+
+Epoch 7/15
+Train Loss: 0.2767
+Val Loss: 0.3112
+
+val Accuracy: 0.8616144975288303 
+
+Epoch 8/15
+Train Loss: 0.2609
+Val Loss: 0.3162
+
+val Accuracy: 0.871499176276771 
+
+Epoch 9/15
+Train Loss: 0.2485
+Val Loss: 0.3062
+
+val Accuracy: 0.8742449203734212 
+
+Epoch 10/15
+Train Loss: 0.2403
+Val Loss: 0.2978
+
+val Accuracy: 0.8753432180120813 
+
+Epoch 11/15
+Train Loss: 0.2332
+Val Loss: 0.2915
+
+val Accuracy: 0.8780889621087314 
+
+Epoch 12/15
+Train Loss: 0.2296
+Val Loss: 0.2919
+
+val Accuracy: 0.8775398132894014 
+
+Epoch 13/15
+Train Loss: 0.2234
+Val Loss: 0.2886
+
+val Accuracy: 0.8802855573860516 
+
+Epoch 14/15
+Train Loss: 0.2194
+Val Loss: 0.2882
+
+val Accuracy: 0.8808347062053816 
+
+Epoch 15/15
+Train Loss: 0.2153
+Val Loss: 0.2880
+
+val Accuracy: 0.8775398132894014 
+
+Metrics saved to 5cv/2_transformer.txt
+Overall metrics saved to metrics_5cv/2_transformer_overall.txt
+Length-bin metrics saved to metrics_5cv_bylength/2_transformer_bylength.txt
+       Entry  ...          source
+8887  Q9FLI7  ...  labeled_sample
+4469  O78452  ...  labeled_sample
+4556  O21401  ...  labeled_sample
+3105  P86695  ...  labeled_sample
+3685  P59925  ...  labeled_sample
+...      ...  ...             ...
+5734  Q2W8Q9  ...  labeled_sample
+5191  Q8R1I1  ...  labeled_sample
+5390  O78517  ...  labeled_sample
+860   C0HJX6  ...      neg_sample
+7270  Q8J1Z1  ...  labeled_sample
+
+[7283 rows x 4 columns]
+       Entry  ...          source
+5389  O78421  ...  labeled_sample
+1783  P0DRA5  ...  labeled_sample
+6398  P55846  ...  labeled_sample
+2483  P0CAS1  ...  labeled_sample
+2926  P80280  ...  labeled_sample
+...      ...  ...             ...
+2747  P12663  ...  labeled_sample
+2558  P0C349  ...  labeled_sample
+5311  B1P1D4  ...  labeled_sample
+5578  Q9MEI6  ...  labeled_sample
+4426  Q8C5Y2  ...  labeled_sample
+
+[1821 rows x 4 columns]
+Epoch 1/15
+Train Loss: 0.4747
+Val Loss: 0.4447
+
+val Accuracy: 0.8121911037891268 
+
+Epoch 2/15
+Train Loss: 0.3826
+Val Loss: 0.3708
+
+val Accuracy: 0.8358045030203185 
+
+Epoch 3/15
+Train Loss: 0.3472
+Val Loss: 0.3772
+
+val Accuracy: 0.8390993959362988 
+
+Epoch 4/15
+Train Loss: 0.3343
+Val Loss: 0.3606
+
+val Accuracy: 0.8412959912136189 
+
+Epoch 5/15
+Train Loss: 0.3137
+Val Loss: 0.3316
+
+val Accuracy: 0.85667215815486 
+
+Epoch 6/15
+Train Loss: 0.2973
+Val Loss: 0.3210
+
+val Accuracy: 0.8621636463481603 
+
+Epoch 7/15
+Train Loss: 0.2859
+Val Loss: 0.3093
+
+val Accuracy: 0.8687534321801208 
+
+Epoch 8/15
+Train Loss: 0.2767
+Val Loss: 0.3078
+
+val Accuracy: 0.8632619439868204 
+
+Epoch 9/15
+Train Loss: 0.2643
+Val Loss: 0.3124
+
+val Accuracy: 0.8676551345414607 
+
+Epoch 10/15
+Train Loss: 0.2557
+Val Loss: 0.2966
+
+val Accuracy: 0.8758923668314114 
+
+Epoch 11/15
+Train Loss: 0.2457
+Val Loss: 0.3110
+
+val Accuracy: 0.8638110928061504 
+
+Epoch 12/15
+Train Loss: 0.2402
+Val Loss: 0.2922
+
+val Accuracy: 0.8786381109280615 
+
+Epoch 13/15
+Train Loss: 0.2354
+Val Loss: 0.2966
+
+val Accuracy: 0.8753432180120813 
+
+Epoch 14/15
+Train Loss: 0.2319
+Val Loss: 0.3119
+
+val Accuracy: 0.8698517298187809 
+
+Epoch 15/15
+Train Loss: 0.2269
+Val Loss: 0.2872
+
+val Accuracy: 0.8775398132894014 
+
+Metrics saved to 5cv/3_transformer.txt
+Overall metrics saved to metrics_5cv/3_transformer_overall.txt
+Length-bin metrics saved to metrics_5cv_bylength/3_transformer_bylength.txt
+       Entry  ...          source
+8887  Q9FLI7  ...  labeled_sample
+4469  O78452  ...  labeled_sample
+4556  O21401  ...  labeled_sample
+3105  P86695  ...  labeled_sample
+3685  P59925  ...  labeled_sample
+...      ...  ...             ...
+5734  Q2W8Q9  ...  labeled_sample
+5191  Q8R1I1  ...  labeled_sample
+5390  O78517  ...  labeled_sample
+860   C0HJX6  ...      neg_sample
+7270  Q8J1Z1  ...  labeled_sample
+
+[7283 rows x 4 columns]
+           Entry  ...          source
+4030      P25434  ...  labeled_sample
+1608      P82437  ...  labeled_sample
+3548      Q9BN12  ...  labeled_sample
+2191      P0DI86  ...  labeled_sample
+6025      P0DPV3  ...  labeled_sample
+...          ...  ...             ...
+3385      P22659  ...  labeled_sample
+6420  A0A1W6I186  ...  labeled_sample
+5051      P67841  ...  labeled_sample
+769       Q8KPP0  ...      neg_sample
+6265      P13618  ...  labeled_sample
+
+[1821 rows x 4 columns]
+Epoch 1/15
+Train Loss: 0.4894
+Val Loss: 0.4208
+
+val Accuracy: 0.8094453596924767 
+
+Epoch 2/15
+Train Loss: 0.4037
+Val Loss: 0.3533
+
+val Accuracy: 0.8456891817682592 
+
+Epoch 3/15
+Train Loss: 0.3637
+Val Loss: 0.3124
+
+val Accuracy: 0.8742449203734212 
+
+Epoch 4/15
+Train Loss: 0.3427
+Val Loss: 0.3160
+
+val Accuracy: 0.8599670510708401 
+
+Epoch 5/15
+Train Loss: 0.3170
+Val Loss: 0.3121
+
+val Accuracy: 0.8577704557935201 
+
+Epoch 6/15
+Train Loss: 0.2963
+Val Loss: 0.2740
+
+val Accuracy: 0.8907193849533224 
+
+Epoch 7/15
+Train Loss: 0.2785
+Val Loss: 0.2626
+
+val Accuracy: 0.8967600219659527 
+
+Epoch 8/15
+Train Loss: 0.2686
+Val Loss: 0.2591
+
+val Accuracy: 0.8956617243272927 
+
+Epoch 9/15
+Train Loss: 0.2550
+Val Loss: 0.2562
+
+val Accuracy: 0.8945634266886326 
+
+Epoch 10/15
+Train Loss: 0.2455
+Val Loss: 0.2535
+
+val Accuracy: 0.8978583196046128 
+
+Epoch 11/15
+Train Loss: 0.2417
+Val Loss: 0.2553
+
+val Accuracy: 0.8951125755079626 
+
+Epoch 12/15
+Train Loss: 0.2350
+Val Loss: 0.2455
+
+val Accuracy: 0.8973091707852828 
+
+Epoch 13/15
+Train Loss: 0.2313
+Val Loss: 0.2441
+
+val Accuracy: 0.9028006589785832 
+
+Epoch 14/15
+Train Loss: 0.2266
+Val Loss: 0.2472
+
+val Accuracy: 0.8989566172432729 
+
+Epoch 15/15
+Train Loss: 0.2230
+Val Loss: 0.2497
+
+val Accuracy: 0.9028006589785832 
+
+Metrics saved to 5cv/4_transformer.txt
+Overall metrics saved to metrics_5cv/4_transformer_overall.txt
+Length-bin metrics saved to metrics_5cv_bylength/4_transformer_bylength.txt
+       Entry  ...          source
+8887  Q9FLI7  ...  labeled_sample
+3105  P86695  ...  labeled_sample
+4030  P25434  ...  labeled_sample
+1608  P82437  ...  labeled_sample
+7182  Q24703  ...  labeled_sample
+...      ...  ...             ...
+6265  P13618  ...  labeled_sample
+5734  Q2W8Q9  ...  labeled_sample
+5191  Q8R1I1  ...  labeled_sample
+860   C0HJX6  ...      neg_sample
+7270  Q8J1Z1  ...  labeled_sample
+
+[7284 rows x 4 columns]
+       Entry  ...          source
+4469  O78452  ...  labeled_sample
+4556  O21401  ...  labeled_sample
+3685  P59925  ...  labeled_sample
+4581  Q35416  ...  labeled_sample
+3123  P12512  ...  labeled_sample
+...      ...  ...             ...
+1184  P80967  ...      neg_sample
+2433  P39090  ...  labeled_sample
+6949  P0AA04  ...  labeled_sample
+8322  Q9MUR6  ...  labeled_sample
+5390  O78517  ...  labeled_sample
+
+[1820 rows x 4 columns]
+Epoch 1/15
+Train Loss: 0.4612
+Val Loss: 0.4480
+
+val Accuracy: 0.8032967032967033 
+
+Epoch 2/15
+Train Loss: 0.3750
+Val Loss: 0.4132
+
+val Accuracy: 0.8137362637362637 
+
+Epoch 3/15
+Train Loss: 0.3493
+Val Loss: 0.3564
+
+val Accuracy: 0.8494505494505494 
+
+Epoch 4/15
+Train Loss: 0.3273
+Val Loss: 0.3922
+
+val Accuracy: 0.8247252747252747 
+
+Epoch 5/15
+Train Loss: 0.3124
+Val Loss: 0.3252
+
+val Accuracy: 0.8538461538461538 
+
+Epoch 6/15
+Train Loss: 0.2887
+Val Loss: 0.3252
+
+val Accuracy: 0.8549450549450549 
+
+Epoch 7/15
+Train Loss: 0.2725
+Val Loss: 0.2890
+
+val Accuracy: 0.8758241758241758 
+
+Epoch 8/15
+Train Loss: 0.2568
+Val Loss: 0.2961
+
+val Accuracy: 0.8631868131868132 
+
+Epoch 9/15
+Train Loss: 0.2484
+Val Loss: 0.2857
+
+val Accuracy: 0.8791208791208791 
+
+Epoch 10/15
+Train Loss: 0.2388
+Val Loss: 0.2887
+
+val Accuracy: 0.8725274725274725 
+
+Epoch 11/15
+Train Loss: 0.2277
+Val Loss: 0.2843
+
+val Accuracy: 0.8824175824175824 
+
+Epoch 12/15
+Train Loss: 0.2242
+Val Loss: 0.2728
+
+val Accuracy: 0.8829670329670329 
+
+Epoch 13/15
+Train Loss: 0.2188
+Val Loss: 0.2686
+
+val Accuracy: 0.8873626373626373 
+
+Epoch 14/15
+Train Loss: 0.2157
+Val Loss: 0.2680
+
+val Accuracy: 0.8846153846153846 
+
+Epoch 15/15
+Train Loss: 0.2115
+Val Loss: 0.2661
+
+val Accuracy: 0.8862637362637362 
+
+Metrics saved to 5cv/5_transformer.txt
+Overall metrics saved to metrics_5cv/5_transformer_overall.txt
+Length-bin metrics saved to metrics_5cv_bylength/5_transformer_bylength.txt
