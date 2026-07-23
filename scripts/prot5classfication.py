@@ -52,7 +52,7 @@ class ProteinDataset(Dataset):
     def __getitem__(self, idx):
         seq = self.df.iloc[idx]['Sequence']
         label = self.df.iloc[idx]['label']
-        # seq = seq.upper().replace('U','X').replace('Z','X').replace('O','X') # 替换非常见氨基酸
+        # seq = seq.upper().replace('U','X').replace('Z','X').replace('O','X') 
         seq_idx = [self.vocab.get(c, 0) for c in seq[:self.max_length]]
         return torch.tensor(seq_idx), torch.tensor(label, dtype=torch.long)
 
