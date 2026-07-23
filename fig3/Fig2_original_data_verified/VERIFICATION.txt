@@ -1,0 +1,7 @@
+Verification summary
+1. The package includes code, data, outputs, run scripts, and documentation.
+2. Panels a and b keep the original plotting logic.
+3. Panels c and d were replaced with ROC-AUC and MCC using the original summary files.
+4. Legends in panels c and d are placed at the lower right.
+5. Output files were regenerated from the included code.
+6. Filenames use ASCII to reduce encoding issues.

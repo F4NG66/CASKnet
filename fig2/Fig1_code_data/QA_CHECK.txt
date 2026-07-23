@@ -1,0 +1,22 @@
+QA check result: PASS
+
+Required files checked:
+- requirements.txt (24 bytes)
+- README.md (866 bytes)
+- run_windows.bat (28 bytes)
+- run_mac_linux.sh (31 bytes)
+- plot_fig1.py (8505 bytes)
+- data/sequence_metadata.csv (1094349 bytes)
+- data/final_deduplicated_dataset.csv (736032 bytes)
+- data/label0_neg_validated.xlsx (424486 bytes)
+- data/label1_pos_validated.xlsx (581517 bytes)
+- data/neg0_neg_curated.xlsx (133254 bytes)
+- data/fig1_length_distribution.csv (130 bytes)
+- data/fig1_dedup_counts.csv (85 bytes)
+- data/fig1_taxonomy_counts.csv (156 bytes)
+- outputs/Fig1_scientific_composite.png (512744 bytes)
+- outputs/Fig1_scientific_composite.svg (1367648 bytes)
+- outputs/Fig1_scientific_composite_vector.svg (175169 bytes)
+
+Text encoding check: PASS
+Plot script run check: PASS
